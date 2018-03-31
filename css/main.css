@@ -1,0 +1,1190 @@
+/* Global Rules start */
+* {
+    box-sizing: border-box
+}
+h2 > hr {
+    text-align: center;
+    border:2.5px solid #38ef7d;
+    width:180px;
+
+}
+
+.clearfix {
+    clear: both
+}
+.center {
+    text-align: center
+}
+body {
+    padding:0;
+    margin:0;
+}
+h2 {
+    text-align:center;
+    font-size:60px;
+    font-family:"Economica";
+    margin-bottom:7px;
+}
+a {
+    text-decoration: none;
+}
+i {
+    cursor:pointer;
+    transition: .8s all ease-in
+}
+.container > hr {
+    text-align: center;
+    border:2.5px solid #38ef7d;
+    width:180px;
+}
+/*.container .mix {
+    display: none
+}*/
+/*button:hover{
+    color:#38ef7d;
+    background-color: white
+}*/
+h2 > p {
+    color:#888
+}
+* {
+    font-family: 'Roboto';
+}
+.container {
+    padding:0px 60px ;
+    overflow:hidden
+}
+
+button {
+    border:0;
+    color:white;
+    background-color:#38ef7d;
+    cursor:pointer
+}
+#Our-blog, #what-they-say, .summary{
+    padding-bottom:60px
+}
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder{
+    color:transparent /* chrome opera safari*/;
+    outline:none
+}
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder{
+    color:transparent /* firefox 19+ */;
+    outline:none
+}
+input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder{
+    color:transparent /* IE 10+ */;
+    outline:none
+}
+input:focus:-moz-placeholder, textarea:focus:-moz-placeholder{
+    color:transparent /* firefox 18- */;
+    outline:none
+}
+input:focus, textarea:focus{
+    outline:none
+}
+:focus{
+    outline:none
+}
+
+/* Global Rules end */
+/* Header start */
+#header .navbar span {
+    color:crimson;
+ }
+.nav {
+    float:right;
+    margin-right:20px
+}
+#header .fix {
+    position: fixed;
+    background: white;
+    top:0;
+    left:0;
+    width:100%;
+    height:auto;
+    padding: 0 30px 0 0;
+    box-shadow: 0 2px 10px 0 #000;
+}
+#header .fa-angle-double-down {
+    margin-top:220px;
+    font-size: 40px;
+    animation: move 1.1s linear infinite
+}
+@keyframes move {
+    from{transform: translate(0, -15px)};
+    to{transform: translate(0, 10px)}
+}
+#header i:hover {
+    color:#888
+}
+.nav ul li {
+    display:inline-block;
+    margin:10px 15px;
+    font-size:13px;
+    font-family: 'Economica', sans-serif;
+    color:white;
+    cursor:pointer;
+    font-weight:bold;
+    transition:.8s
+}
+.navbar {
+  background-color: transparent!important;
+}
+.nav ul li:hover{
+    color:#38ef7d
+}
+.navbar li .active  {
+    color:#38ef7d
+}
+#header {
+    height:700px;
+    overflow: hidden;
+    background-image:url("../images/sha.jpeg");
+    background-size:cover;
+}
+#header .overlay {
+    background-color:black;
+    width:100%;
+    opacity:0.9;  
+    height:100%
+}
+#header h1{
+    float:left;
+    color:white;
+    margin-left:30px;
+    font-family:'Roboto';
+    letter-spacing: 2px;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:25px
+}
+.slider {
+    margin-top:150px;
+    color:#fff;
+}
+#header .slider span {
+    font-weight:bold;
+    color:crimson;
+    margin-left: 0
+}
+#header .slider h2 {
+    font-size:40px;
+    font-weight: bold
+}
+#header .slider p {
+    font-size:18px
+}
+ .slider button {
+    height:44px;
+    width:110px;
+    margin:10px 13px;
+    font-size:14px
+}
+#header .slider button:hover {
+    background-color: #fff;
+    color:#7cb62f
+}
+#header .fa-bars {
+    display:none!important;
+    color:white;
+    margin:20px 4px;
+    float:right!important;
+    position: relative;
+    font-size:30px
+}
+/* header end */
+
+/* about us start */
+#about-us .info {
+    width:46%;
+    float:left;
+    margin-left:4%
+}
+#about-us .info p {
+    line-height:1.5em;
+    font-size:17.7px;
+    color:#888
+}
+#about-us h3 {
+  font-size:43px;
+  color:black!important;
+  text-align: left;
+}
+#about-us .info button {
+    width:100px;
+    height:42px;
+    margin-bottom: 20px;
+    color:#fff;
+    background-color: #38ef7d;
+    font-size:16px;
+}
+#about-us .info span {
+    color:crimson
+}
+#about-us .slide {
+    width:50%;
+    float:left;
+    background-size: cover;
+    height:auto
+}
+#about-us .slide img {
+    height:auto;
+    width:600px;
+    margin-top:26px
+}
+/* About us end */
+
+/* our services start */
+#Our-services .service {
+    width:32%;
+    height:auto;
+    float:left;
+    margin-left:3%;
+    margin-bottom:3%;
+    padding:20px 20px 30px 20px;
+    background-color: #fff;
+}
+#Our-services {
+    height:auto;
+    background: #f7f7f7;
+    padding-top:10px
+}
+#Our-services i:hover {
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */
+    transform: rotate(360deg); /* Standard syntax */
+}
+#Our-services .service h3 {
+    color:#777;
+    font-size:26px
+}
+#Our-services  p {
+    line-height:1.4em;
+    color:#888;
+    font-size:18px
+}
+
+#Our-services i {
+    color:white;
+    background-color:#38ef7d;
+    padding:20px;
+    border-radius:50%;
+    margin-top:30px;
+    font-size:20px
+}
+#Our-services .service:hover  {
+    background-color: #38ef7d;
+}
+#Our-services .service:hover p,##Our-services h3 {
+    color:#fff!important;
+
+}
+/* our services end */
+
+/* count start */
+.count {
+    height:290px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:white;
+    background-attachment: fixed;
+    background-size: cover;
+   /* background-image:url("../images/tablet.jpg")*/
+}
+.count  {
+    opacity:0.8;
+    color:white;
+    background-color: #000;
+
+}
+.counte {
+    float:left;
+    width:23%;
+    margin-left:2%;
+    padding:30px 0
+}
+.count .counte span i{
+    background-color: #38ef7d;
+    padding:22px;
+    margin-top:40px;
+    font-size:40px;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.count p {
+    font-size:21px;
+
+}
+/* Portfolio start */
+#Portfolio button {
+    width:95px;
+    height:40px;
+    font-size:15px;
+    color:#333;
+    border:3px solid #333;
+    background-color: white;
+    padding-left:15px;
+    padding-right:15px;
+    margin: 7px;
+    cursor:pointer
+}
+#Portfolio button:last-of-type {
+    width: 200px;
+    margin-top:20px
+}
+#Portfolio button:hover{
+    background-color: #333;
+    color:#fff;
+}
+#Portfolio .selected {
+    background-color: #333;
+    color:#fff;
+}
+#Portfolio .container img {
+    width:22%;
+    margin:10px
+}
+
+/*#portfolio span {
+    -webkit-clip-path: polygon(50% 0%, 0 0, 1% 50%);
+    clip-path: polygon(50% 0%, 0 0, 1% 50%);
+    background-color: crimson
+}*/
+/* portfolio end */
+/* exprets ============== */
+.exprets {
+    background: #4c4c4c;
+    padding:12px 100px 34px
+}
+.col-md-3  {
+    float:left;
+    margin:10px 30px
+}
+.exprets hr {
+    text-align: center;
+    border:2.5px solid #38ef7d;
+    width:180px;
+    margin-bottom: 40px
+}
+.exprets .section-title {
+    color: #fff
+}
+
+.exprets .progress-content {
+    margin-top: 20px 50px
+}
+
+.exprets .progress {
+    width: 130px;
+    height: 130px;
+    margin:20px;
+    background: none;
+    box-shadow: none;
+    margin: 0 auto;
+    position: relative;
+}
+
+.exprets .progress > span {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    z-index: 2
+}
+
+.exprets .progress .progress-value {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    top: 5%;
+    left: 5%;
+    background: none;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    line-height: 135px
+}
+
+.exprets .progress .progress-left {
+    left: 0;
+}
+
+.exprets .progress .progress-right {
+    right: 0;
+}
+
+.exprets .progress .progress-bar {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 10px;
+    border-style: solid;
+}
+
+.exprets .progress.blue .progress-bar {
+    border-color: #049dff
+}
+
+.exprets .progress.yellow .progress-bar {
+    border-color: #fdba04
+}
+
+.exprets .progress .progress-left .progress-bar {
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    transform-origin: left;
+}
+
+.exprets .progress .progress-right .progress-bar {
+    right: 100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    transform-origin: right;
+    animation: load1 1.8s linear forwards
+}
+
+.exprets .progress.blue .progress-left .progress-bar {
+    animation: load2 1.5s linear forwards 1.8s
+}
+
+.exprets .progress.yellow .progress-left .progress-bar {
+    animation: load3 1s linear forwards 1.8s
+}
+
+@keyframes load1 {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes load2 {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(144deg);
+    }
+}
+
+@keyframes load3 {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
+.exprets .title {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+/* our expert */
+/* our pricing start */
+#Our-pricing {
+    overflow:auto;
+    background: #f7f7f7
+}
+#Our-pricing .price {
+    float:left;
+    margin:13px;
+    background-color:#fff;
+    width:21%;
+    font-size: 23px;
+
+}
+#Our-pricing .price .plan {
+    color:white;
+    background-color: #252525;
+    width:100%;
+    padding:10px 0;
+}
+#Our-pricing .cost {
+    font-size:29px
+}
+#Our-pricing ul li {
+    list-style:none;
+    font-size:13px;
+    color:#666;
+    margin:20px 3px 20px 0px;
+    text-align: center
+}
+#Our-pricing .select {
+    background-color: #252525;
+    color:white;
+    padding:10px;
+    cursor: pointer;
+}
+#Our-pricing .select:hover{
+    background-color:#38ef7d
+}
+
+/* our pricing end */
+
+/* our team start */
+.person img{
+    background-size:cover;
+    width:100%;
+    height:80%
+}
+#Our-Team p:first-of-type{
+    color:#888
+}
+#Our-Team {
+    padding-bottom: 40px
+}
+#Our-Team .over {
+    width:50%;
+    background-color: #38ef7d;
+    transition:all 2s ease;
+    position: relative;
+}
+.person {
+    width:23%;
+    height:390px;
+    float:left;
+    margin:1%;
+}
+#Our-Team .person span {
+    background-color:rgb(65, 64, 64);
+    width:100%;
+    padding:10px 20px;
+    display: block;
+    position:relative;
+    margin-bottom:40px
+}
+#Our-Team .dot {
+    border-radius:25px;
+    width:10px;
+    height:10px;
+    margin-top: 40px;
+    cursor:pointer;
+    display:inline-block;
+    background-color: rgb(189, 187, 187);
+}
+#Our-Team .dot:hover, #Our-Team .active{
+    background-color: #333
+}
+#Our-Team i {
+    color:white;
+    margin:0 5px
+}
+
+/* our team end */
+
+/*  solving start */
+.solving {
+    background-image:url("../images/port5.jpg") ;
+    background-attachment: fixed;
+    background-size:cover;
+    height:auto;
+    position: relative
+}
+.solving .overlay {
+    opacity: 0.85;
+    top: 0;
+    left:0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width:100%;
+    height:100%;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.solving h3 {
+    color:white;
+    font-size:30px
+}
+.solving .counte  i{
+    margin-top: 30px
+}
+.sloving button:hover{
+    color:#38ef7d;
+    background-color: white
+}
+.solving p {
+    color:#888;
+    font-size:17px
+}
+.solving button {
+    width: 144px;
+    height:50px;
+    font-size:17px;
+    color:white;
+    margin:7px;
+    padding-left:10px;
+    padding-right:10px
+}
+/* why choose us start */
+.choose-us .info, .choose-us .video {
+    width:49%;
+    float:left;
+    height:500px;
+    outline:1px solid #58595a;
+
+}
+.choose-us {
+    padding-bottom:50px
+}
+.choose-us .info .row {
+    background-color:#333;
+}
+.choose-us .info .row {
+    padding:0px;
+    top:0;
+    left:0
+}
+.choose-us .info .row ul {
+    left:0;
+    top: 0;
+    padding:0px;
+    margin:0
+}
+.choose-us .info .row ul li {
+    display:inline-block;
+    color:white;
+    cursor: pointer;
+    padding:20px;
+
+}
+.choose-us .info .row ul li:hover {
+    background-color: #38ef7d;
+}
+.choose-us .info .content img{
+    width:50%;
+    float:left;
+    margin:0 20px 10px
+}
+.choose-us .info .content p {
+    color:#333;
+    line-height: 1.7em;
+    font-size:17px ;
+    margin-left:20px
+}
+.choose-us .info {
+    border:1px solid black;
+    margin-right:1%;
+    overflow:hidden
+}
+.choose-us .video {
+    background-color: #636363;
+    color:white;
+}
+.choose-us .video i {
+    margin-top:154px;
+    background-color: red;
+    padding:20px
+}
+.choose-us .video h3 {
+    font-size:24px
+}
+.choose-us .video p {
+    font-size:17px
+}
+/* why choose us end */
+
+/* what they say start */
+#what-they-say {
+    background: #333333;
+}
+#what-they-say h2 {
+    color:white;
+}
+#what-they-say p {
+    color:#888
+}
+#what-they-say .opinion {
+    width:23%;
+    outline:1px solid #58595a;
+    float:left;
+    margin:8px;
+    overflow:hidden;
+    background-color:#141414;
+    padding: 18px;
+    height:auto
+}
+#what-they-say .opinion img {
+    width:120px;
+    height:auto;
+    border-radius:50%
+}
+#what-they-say .opinion p {
+    line-height:1.5em;
+    font-size:17px;
+    color:#888
+}
+#what-they-say .opinion h3 {
+    color:white;
+    font-size:20px
+}
+#what-they-say .opinion h4 {
+    color:#999;
+    font-size:17px
+}
+#what-they-say i {
+    color:orange
+}
+/* what they say */
+
+/* our blog */
+
+#Our-blog p{
+    color:#888;
+    line-height:1.5em;
+
+}
+#Our-blog .article {
+    width:23%;
+    float:left;
+    margin-left:15px
+}
+#Our-blog .article img {
+    background-size:cover;
+    width:100%
+}
+#Our-blog button {
+    width:160px;
+    height:50px;
+    font-size:20px;
+    padding:7px
+}
+/* our blog end */
+
+/* quote start */
+.quote {
+    height:auto;
+    background-color:#333;
+    color:white;
+    padding:120px 0;
+    line-height:2em;
+    font-size:18px
+}
+.quote span {
+    font-style:italic
+}
+.quote i {
+    font-size:70px;
+    color:#38ef7d
+}
+/* get started start */
+.get-started {
+    background-color:#38ef7d;
+    padding:10px 20px 10px;
+    height: auto
+}
+.get-started p {
+    color:white;
+    font-size:26px;
+    font-weight:bold;
+    color:#2f2f2f;
+    display: inline;
+    margin: 90px 0px 0px
+}
+.get-started button {
+    width:160px;
+    height:40px;
+    background-color:#333;
+    font-size:17px;
+    float:right
+}
+/* get started end */
+
+/* contact us start */
+#Contact {
+    background:#f7f7f7;
+    overflow:hidden;
+    padding:0 0 30px 0;
+    width:100%!important
+}
+#Contact p:first-of-type {
+    color:#888;
+    font-size:20px
+}
+#Contact .info {
+    width:40%;
+    float:left;
+    padding-right:30px;
+}
+#Contact .info h3 {
+    font-size:27px;
+    color:black
+}
+#Contact .info p:first-of-type {
+    color:#888
+}
+#Contact .info i {
+    border-radius: 50%;
+    border:2px solid #38ef7d;
+    padding:11px;
+    color:#38ef7d;
+    margin-right:13px
+}
+#Contact .form {
+    margin-top:50px;
+}
+#Contact .form input {
+    width:230px;
+    float:left;
+    color:#555;
+    padding:12px 10px;
+    height:42px;
+    margin:5px 10px;
+    border: 2px solid #ccc;
+}
+#Contact .form .border {
+    position: relative;
+    height:2px;
+    bottom: 0;
+    width:100%;
+    left:0;
+    transition:.4s;
+    background-color:#c23616
+}
+#Contact .form .border:hover{
+    width:100%
+}
+#Contact .form input, #Contact textarea {
+    border-radius:8px
+}
+#Contact textarea {
+    margin:18px 10px;
+    width:57%
+}
+#Contact button {
+    width:180px;
+    font-size:21.5px;
+    padding:10px 7px;
+    height:auto;
+    float: center;
+    margin:4px 10px
+}
+/* contact end */
+/* summary start */
+.summary {
+    background-color:#333;
+    color:#fff;
+    overflow:hidden;
+}
+.summary p:first-of-type {
+    color:#888
+}
+.summary .project {
+    width:23%;
+    float:left;
+    margin:1%
+}
+.summary .project h3 {
+    border-bottom:1px solid #888;
+    margin-bottom:20px;
+    padding-bottom: 8px;
+}
+.summary .project img {
+    width:70px;
+    border:2px solid #888
+}
+.summary .project button {
+    background: #696969;
+    padding:7px;
+    margin:3px
+}
+.summary i {
+    color:white;
+    padding:10px;
+}
+.summary .fa-facebook {
+    background-color:rgb(8, 79, 145)
+}
+.summary .fa-twitter {
+    background-color:rgb(81, 214, 255)
+}
+.summary  .fa-google-plus-g {
+    background-color:rgba(255, 0, 0, 0.637)
+}
+.summary .fa-youtube {
+    background-color:red
+}
+.summary  .fa-linkedin-in {
+    background-color:rgb(7, 23, 252)
+}
+/* summary end */
+/* footer start */
+.footer  {
+    background: #232323;
+    color:#fff;
+    height: auto;
+    padding: 14px 0;
+    box-sizing:border-box
+}
+.footer p {
+    float:left;
+    margin-right:280px;
+    box-sizing:border-box
+
+}
+
+.footer ul li {
+    display:inline-block;
+    margin-left:23px;
+    font-weight:bold
+}
+.footer i {
+    color:#38ef7d
+}
+/* footer end */
+
+/* stroll top start */
+.scroll {
+    bottom:20px;
+    right:20px;
+    position: fixed;
+    font-size:27px;
+    cursor:pointer;
+    color:white;
+    padding:7px;
+    background-color: #333
+}
+@media (max-width:480px)  {
+    .container {
+        width:400px!important;
+        font-size:15px;
+        padding: 20px;
+        float:center;
+        padding:10px
+    }
+    .navbar ul li {
+        display: none!important
+    }
+    #header .fa-bars {
+        display:block!important;
+    }
+    p {
+        font-size:13px!important
+    }
+
+
+
+    #about-us .slide {
+       clear:both!important
+    }
+    #about-us .info {
+        width:92%;
+        text-align: center
+    }
+    #about-us img {
+        height: 340px!important
+    }
+    #about-us h2 {
+        font-size:30px!important;
+        float:center;
+
+    }
+    #about-us p{
+        width:100%!important
+    }
+    i:not(.fa-arrow-up){
+        font-size: 17px!important
+    }
+    .service {
+        width:96%!important
+    }
+    #Our-pricing .price , #Our-Team .person, .choose-us .info, .choose-us .video, #what-they-say .opinion, #Our-blog .article {
+        width:89%;
+        outline:1px solid #58595a;
+        float:center!important;
+        margin:10px auto;
+        margin-left:25px
+
+    }
+    .choose-us .info {
+        font-size:15px
+    }
+    .choose-us .info img {
+        width:90%!important;
+        margin:5px 10px!important
+    }
+
+    #Our-blog button {
+        padding:2px!important;
+        font-size:16px!important
+    }
+    .quote p {
+        font-size:17px!important;
+        line-height:1.1em!important
+    }
+    .get-started p {
+        display: block;
+        font-size:20px!important;
+        margin-bottom:10px
+    }
+    .get-started  {
+        float: center
+    }
+    .footer p, .footer ul {
+        width: 100%;
+        margin-bottom:30px!important;
+        font-size:13px!important;
+    }
+
+    #Portfolio img {
+        width:90%!important
+    }
+    #Portfolio button {
+        padding:6px!important;
+        width:80px
+    }
+    #Contact .info, #Contact .form {
+        width:100%;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    #Contact .form {
+      margin-left: 20px;
+    }
+    #Contact textarea {
+        width:280px
+    }
+
+}
+/*@media  (min-width: 481px) and (max-width:768px){
+
+}*/
+@media (min-width:768px) and (max-width:960px)  {
+    .container {
+        width:760px;
+    }
+    .navbar ul li {
+        display: none!important
+    }
+    #header .fa-bars {
+        display:block!important;
+        float:right;
+    }
+    p {
+        font-size:13px!important
+    }
+    #about-us .slide {
+       clear:both!important
+    }
+    #about-us .info {
+        width:92%;
+        text-align: center
+    }
+    #about-us img {
+        height: 340px!important
+    }
+    #about-us h2 {
+        font-size:30px!important;
+        float:center;
+    }
+    #about-us p{
+        width:100%!important
+    }
+    i:not(.fa-arrow-up){
+        font-size: 17px!important
+    }
+    .service {
+        width:46%!important
+    }
+    #Our-pricing .price , #Our-Team .person, .choose-us .info, .choose-us .video, #what-they-say .opinion, #Our-blog .article {
+        width:45%;
+        float:center!important;
+        margin:10px auto;
+        margin-left:25px
+
+    }
+    .choose-us .info {
+        font-size:15px
+    }
+    .choose-us .info img {
+        width:90%!important;
+        margin:5px 10px!important
+    }
+    .col-md-3 {
+        width:16%;
+        margin-left: 26px;
+    }
+    #Our-blog button {
+        padding:2px!important;
+        font-size:16px!important
+    }
+    .quote p {
+        font-size:17px!important;
+        line-height:1.1em!important
+    }
+    .get-started p {
+        display: block;
+        font-size:30px!important;
+        margin-bottom:10px
+    }
+    .get-started  {
+        float: center
+    }
+    .footer p, .footer ul {
+        width: 100%;
+        margin-bottom:30px!important;
+        font-size:20px!important;
+    }
+    #Portfolio img {
+        width:41%!important
+    }
+    #Portfolio button {
+        padding:10px!important;
+        width:40px
+    }
+    #Contact .info {
+        width:94%;
+        margin-left: 30px;
+        text-align: center
+    }
+    #Contact textarea {
+        width:280px
+    }
+}
+@media (min-width:961px)  and (max-width: 1024px)  {
+    .container {
+        width:961px!important;
+        font-size:15px
+    }
+
+    .service {
+        margin-left:2%!important;
+        width:30%!important
+    }
+     /*:not(.get-started p) {
+        font-size:15px!important
+    }*/
+    #header .navbar ul li {
+        font-size:12px!important
+    }
+  /*  #header h1 {
+        font-size:23px
+    }*/
+}
+@media (min-width:1025px) and (max-width: 1280px)  {
+    .container {
+        width:944px
+    }
+    /* .service, counte, .Portfolio img, .price , .person, .opinion, .article, .project{
+        width:20%
+    } */
+ }
+@media (min-width:1281px){
+    .container {
+        width:1201px
+    }
+}
